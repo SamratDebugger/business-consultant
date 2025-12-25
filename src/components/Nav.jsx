@@ -1,7 +1,7 @@
 import NavItems from "./NavItems";
 export default function Nav() {
   return (
-    <header className="bg-base-300 shadow-sm">
+    <header className="bg-base-200 shadow-sm">
       <div className="navbar max-w-1xl mx-auto px-5 py-0">
         <div className="navbar-start ">
           <div className="dropdown">
