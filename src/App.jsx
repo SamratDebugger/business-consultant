@@ -1,14 +1,12 @@
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-
+import { Route, Routes } from "react-router";
+import Home from "./routes/Home";
+import LoginForm from "./routes/LoginForm";
 function App() {
   return (
-    <>
-      <Nav />
-      <Hero />
-      <Footer />
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="login" element={<LoginForm />} />
+    </Routes>
   );
 }
 
