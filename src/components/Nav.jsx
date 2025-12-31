@@ -30,11 +30,13 @@ export default function Nav() {
             </ul>
           </div>
           <a>
-            <img
-              className="max-w-40"
-              src="/assets/images/logo_files/affirm-business-consultant.png"
-              alt="logo"
-            />
+            <Link to="/">
+              <img
+                className="max-w-40"
+                src="/assets/images/logo_files/affirm-business-consultant.png"
+                alt="logo"
+              />
+            </Link>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
