@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import NavItems from "./NavItems";
 export default function Nav() {
   return (
@@ -42,7 +43,9 @@ export default function Nav() {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-success text-white">Login</button>
+          <Link to="/login">
+            <button className="btn btn-success text-white">Login</button>
+          </Link>
         </div>
       </div>
     </header>

@@ -1,8 +1,10 @@
+import { Link } from "react-router";
+
 export default function NavItems() {
   return (
     <>
       <li>
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
         <a>Services</a>
