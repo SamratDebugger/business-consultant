@@ -1,10 +1,10 @@
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 
 export default function NavItems() {
   return (
     <>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
         <a>Services</a>
